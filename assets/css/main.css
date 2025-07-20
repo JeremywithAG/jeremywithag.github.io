@@ -2271,3 +2271,20 @@ button,
     border-top: 0;
     margin-top: 0;
     padding-top: 0; }
+/*tags*/
+.tags {
+  margin-top: 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.tag {
+  background-color: #f56a6a; /* Match your theme */
+  color: #fff;
+  padding: 0.3em 0.8em;
+  border-radius: 20px;
+  font-size: 0.85em;
+  font-weight: 500;
+  display: inline-block;
+}
