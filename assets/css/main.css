@@ -78,7 +78,12 @@ html {
   box-sizing: inherit; }
 
 body {
-   background: linear-gradient(to bottom, #000000, #ffffff); /* black to white */ }
+  background: linear-gradient(to bottom, #000000, #ffffff); /* black to white */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
   body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
