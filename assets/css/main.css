@@ -46,6 +46,10 @@ table {
 body {
   -webkit-text-size-adjust: none; }
 
+body {
+  padding-bottom: 250px; /* space to prevent content from being overlapped */
+}
+
 mark {
   background-color: transparent;
   color: inherit; }
